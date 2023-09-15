@@ -16,13 +16,16 @@ fn fib(mut n: felt252) -> felt252 {
     }
 }
 
-#[cfg(test)]
-mod tests {
-    use super::fib;
+// #[cfg(test)]
+// mod tests {
+//     use super::fib;
 
-    #[test]
-    #[available_gas(100000)]
-    fn it_works() {
-        assert(fib(16) == 987, 'it works!');
-    }
-}
+//     #[test]
+//     #[available_gas(100000)]
+//     fn it_works() {
+//         assert(fib(16) == 987, 'it works!');
+//     }
+// }
+
+#[cfg(test)]
+mod tests;

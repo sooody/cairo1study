@@ -6,3 +6,10 @@ version = "0.1.0"
 
 [dependencies]
 # foo = { path = "vendor/foo" }
+starknet = ">=2.2.0"
+
+[[target.starknet-contract]]
+
+[lib]
+casm = true
+
